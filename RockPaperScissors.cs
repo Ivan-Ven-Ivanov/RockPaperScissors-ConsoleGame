@@ -56,19 +56,23 @@ namespace RockPaperScissors
                     (playerMove == Scissors && computerMove == Paper) ||
                     (playerMove == Paper && computerMove == Rock))
                 {
+                    Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine("You win!");
                 }
                 else if ((playerMove == Rock && computerMove == Paper) ||
                     (playerMove == Scissors && computerMove == Rock) ||
                     (playerMove == Paper && computerMove == Scissors))
                 {
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("You lose.");
                 }
                 else
                 {
+                    Console.ForegroundColor = ConsoleColor.Yellow;
                     Console.WriteLine("It's a draw");
                 }
 
+                Console.ResetColor();
                 while (true)
                 {
                     Console.Write("Do you want to play again? [yes] [no] ");
