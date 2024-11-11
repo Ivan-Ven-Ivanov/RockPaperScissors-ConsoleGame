@@ -1,5 +1,5 @@
 # "Rock - Paper - Scissors" Game By Ivan
-This is a simple console-based C# implementaion of the "Rock Paper Scissors" game
+This is a simple console-based C# implementaion of the "Rock Paper Scissors" game.
 
 <img alt="Image" width = 300px src="https://img.freepik.com/premium-vector/hands-playing-rock-paper-scissors-game-flat-design-style-vector-illustration_540284-598.jpg?w=2000" />
 Rock paper scissors is an intransitive hand game, usually played between two people, in which each player simultaneously forms one of three shapes with an outstretched hand. The rules are:
